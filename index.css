@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+/* The 1st container */
+/* main Image */
+#image {
+    margin-bottom: 5vw;
+}
+
+/* custom Image */
+#customImg {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, #9D0E0E00, #4F0707), url(./images/main.png);
+}
+
+
+/* loginDetails */
+#loginDetails {
+    position: absolute;
+    top: 2em;
+    right: 10em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+#forms {
+    color: #ffffff;
+    margin-right: 1em;
+}
+
+/* Main logo */
+#logo {
+    margin-top: -300px;
+}
+#customLogo {
+    height: 8vw;
+    width: 8vw;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+#customLogo > p {
+    color: #EB2929;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.557291666666667vw;
+}
+
+/* Main Caption */
+#captionDiv {
+    margin-top: 1vw;
+}
+#captionText {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Forms */
+#formContainer {
+    margin-top: 1vw;
+    font-family: 'Poppins', sans-serif;
+}
+#inputs1 {
+    width: 245px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+#inputs2 {
+    width: 477px;
+    font-size: 15px;
+}
+
+
+/* The second container */
+/* The captions */
+
+#quicks {
+    position: relative;
+    top: 1vw;
+    left: 7vw;
+}
+#quickSearch {
+    color: #192F60;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+#subText {
+    color: #8C96AB;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Third Cotainer */
+/* cards */
+#cardMain {
+    position: relative;
+    top: 3vw;
+    left: 2vw;
+}
+#cards {
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px #00000029;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+/* Images */
+#images {
+    height: 140px;
+}
+
+/* subContent */
+#subContent {
+    display: flex;
+    padding-right: 40px;
+}
+#subImage {
+    margin-right: 10%;
+    position: relative;
+    left: -6%;
+}
+#subContent2 {
+    margin-top: 5%;
+    font-size: 12px;
+}
+#pickup {
+    color: #192F60;
+    font-family: 'Poppins', sans-serif;
+}
+#sentence {
+    color: #8C96AB;
+    font-family: 'Poppins', sans-serif;
+}
